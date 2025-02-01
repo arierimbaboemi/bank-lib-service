@@ -42,7 +42,7 @@ func InitiateLog() error {
 	// Store logger as a pointer
 	logger = &createdLog
 
-	logger.Info().Msg("Zerolog initiated successfully")
+	logger.Info().Msg("Log initiated successfully")
 
 	return nil
 }
